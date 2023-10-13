@@ -1,0 +1,235 @@
+:root {
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--c-brand);
+    background-color: var(--c-background);
+
+    --c-brand: #fff;
+    --c-primary: #bea69e;
+    --c-background: #212121;
+    --c-background-light: #1d1d1d;
+    --c-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    /* 2% */
+    line-height: 1.5;
+    /* 24px */
+    color: #434455;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.none {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        margin-bottom: 100px;
+    }
+
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    section {
+        margin-bottom: 150px;
+    }
+
+    .container {
+        max-width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+
+.hero {
+    border-radius: 30px;
+    background-color: #1D1D1D;
+    padding: 40px 20px 0;
+}
+
+.hero-header {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
+
+.hero-header-accent {
+    color: #BEA69E;
+    font-family: DM Sans;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-text-info {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.hero-students-text {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+}
+
+.hero-reviews-wrap {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.hero-reviews {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    margin-bottom: 4px;
+}
+
+.hero-number {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+}
+
+.hero-students-list {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.hero-students-li {
+    margin-left: -15px;
+}
+
+.hero-students-li:nth-child(1) {
+    z-index: 999;
+}
+
+ .hero-students-li:nth-child(2) {
+    z-index: 10;
+}
+
+.hero-star-svg {
+    fill: #121212;
+    /* width: 44px;
+    height: 44px; */
+    flex-shrink: 0;
+    background-color: #BEA69E;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.hero-review-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-students-flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.hero-student-review-wrap {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 31px;
+}
+
+.hero-students-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-main-img {margin: 0 auto;}
