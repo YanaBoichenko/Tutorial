@@ -179,12 +179,6 @@ section {
     z-index: 10;
 }
 
-.hero-reviews-wrap {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
-
 .hero-students-text {
     color: #FFF;
     font-family: DM Sans;
@@ -195,6 +189,11 @@ section {
     letter-spacing: -0.04em;
 }
 
+.hero-reviews-wrap {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
 .hero-reviews {
     color: rgba(255, 255, 255, 0.50);
     font-family: DM Sans;
@@ -222,6 +221,7 @@ section {
     background-color: #BEA69E;
     border-radius: 50%;
     padding: 12px;
+    stroke: none;
 }
 
 .hero-main-img {margin: 0 auto;}
